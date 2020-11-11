@@ -1,0 +1,19 @@
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 100px 200px 100px 200px;
+  grid-gap: 0px;
+}
+
+.square { 
+  border: 1px solid; 
+  width: 20px;
+  height: 20px;
+  padding: 30px;
+}
+
+
+.hover {
+  background:orange;
+  transition: all 0.5s ease
+}
